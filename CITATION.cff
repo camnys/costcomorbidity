@@ -1,0 +1,40 @@
+# ------------------------------------------------
+# CITATION.cff file created with {cffr} R package
+# See also: https://docs.ropensci.org/cffr/
+# ------------------------------------------------
+ 
+cff-version: 1.2.0
+message: If you use costcomorbidity, please cite the methodological article under
+  preferred-citation and report the package version used.
+type: software
+license: GPL-3.0-or-later
+title: 'costcomorbidity: Cost-Based Comorbidity Indices'
+version: 0.1.0
+abstract: An R package for calculating cost-based versions of the Charlson, Elixhauser,
+  and RxRisk comorbidity indices from ICD-10 and ATC-coded data.
+authors:
+- family-names: Nystrand
+  given-names: Camilla
+  email: camilla.nystrand@ki.se
+preferred-citation:
+  type: article
+  title: 'Derivation and Validation of Charlson, Elixhauser and RxRisk Cost-Based
+    Comorbidity Indices: A Register-Based Study of 350,000 Individuals Over 11 Years'
+  authors:
+  - family-names: Nystrand
+    given-names: Camilla
+    email: camilla.nystrand@ki.se
+  - family-names: Johansson
+    given-names: Naimi
+  - family-names: Blom
+    given-names: Johannes
+  journal: PharmacoEconomics
+  year: '2026'
+  doi: 10.1007/s40273-026-01652-x
+  url: https://doi.org/10.1007/s40273-026-01652-x
+  notes: Accepted for publication
+contact:
+- family-names: Nystrand
+  given-names: Camilla
+  email: camilla.nystrand@ki.se
+

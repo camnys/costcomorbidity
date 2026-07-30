@@ -5,12 +5,6 @@
 Charlson and Elixhauser, as well as the ATC-based RxRisk comorbidity
 indices, derived from predicting healthcare costs.
 
-More information about the derivation of the cost-based indices can be
-found in: Nystrand, C., Johansson, N., Blom, J. Derivation and
-Validation of Charlson, Elixhauser and RxRisk Cost-Based Comorbidity
-Indices: A Register-Based Study of 350,000 Individuals Over 11 Years.
-Accepted in Pharmacoeconomics. DOI: 10.1007/s40273-026-01652-x
-
 The package is currently under active development. Its interface and
 coefficient implementation may change before the first formal release.
 
@@ -35,12 +29,22 @@ library(costcomorbidity)
 
 ## Citation
 
-If you use `costcomorbidity` in research or a publication, please cite
-the package. The current citation and corresponding BibTeX entry can be
-obtained by running:
+The cost-based comorbidity weights implemented in `costcomorbidity` were
+developed and validated in:
+
+> Nystrand, C., Johansson, N., and Blom, J. (2026). Derivation and
+> Validation of Charlson, Elixhauser and RxRisk Cost-Based Comorbidity
+> Indices: A Register-Based Study of 350,000 Individuals Over 11 Years.
+> *PharmacoEconomics*. Accepted for publication.
+> <https://doi.org/10.1007/s40273-026-01652-x>
+
+If you use these indices, please cite the methodological article and
+report the version of `costcomorbidity` used. Citation information and
+the installed package version can be obtained with:
 
 ``` r
 citation("costcomorbidity")
+packageVersion("costcomorbidity")
 ```
 
 ## Supported indices

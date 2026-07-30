@@ -1,5 +1,43 @@
 citHeader(
-  "If you use costcomorbidity in research or a publication, please cite the package:"
+  paste(
+    "The cost-based comorbidity weights implemented in",
+    "costcomorbidity were developed and validated in the following article.",
+    "If you use these indices, please cite:"
+  )
 )
 
-citation(auto = meta)
+bibentry(
+  bibtype = "Article",
+  title = paste(
+    "Derivation and Validation of Charlson, Elixhauser and RxRisk",
+    "Cost-Based Comorbidity Indices: A Register-Based Study of",
+    "350,000 Individuals Over 11 Years"
+  ),
+  author = c(
+    person(
+      given = "Camilla",
+      family = "Nystrand"
+    ),
+    person(
+      given = "Naimi",
+      family = "Johansson"
+    ),
+    person(
+      given = "Johannes",
+      family = "Blom"
+    )
+  ),
+  journal = "PharmacoEconomics",
+  year = "2026",
+  doi = "10.1007/s40273-026-01652-x",
+  url = "https://doi.org/10.1007/s40273-026-01652-x",
+  note = "Accepted for publication"
+)
+
+citFooter(
+  paste(
+    "Please also report the version of costcomorbidity used.",
+    "The installed version can be obtained with",
+    "packageVersion(\"costcomorbidity\")."
+  )
+)

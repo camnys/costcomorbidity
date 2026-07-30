@@ -8,8 +8,11 @@ Authors@R: person(
       role = c("aut", "cre"),
       email = "camilla.nystrand@ki.se"
     )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
+Description: Calculates cost-based versions of the Charlson, Elixhauser,
+    and RxRisk comorbidity indices from ICD-10 and ATC-coded data.
+    Comorbidity categories are identified using established classification
+    mappings and combined using cost-based weights derived and validated
+    in longitudinal register data.
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
