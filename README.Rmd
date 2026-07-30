@@ -30,6 +30,36 @@ DOI: 10.1007/s40273-026-01652-x
 The package is currently under active development. Its interface and
 coefficient implementation may change before the first formal release.
 
+## Installation
+
+`costcomorbidity` is not currently available from CRAN. The development
+version can be installed from GitHub using the `pak` package:
+
+```r
+# Install pak once, if it is not already installed
+install.packages("pak")
+
+# Install costcomorbidity from GitHub
+pak::pkg_install("camnys/costcomorbidity")
+```
+
+Load the package after installation:
+
+```r
+library(costcomorbidity)
+```
+
+## Citation
+
+If you use `costcomorbidity` in research or a publication, please cite the
+package. The current citation and corresponding BibTeX entry can be obtained
+by running:
+
+```r
+citation("costcomorbidity")
+```
+
+
 ## Supported indices
 
 The package supports:

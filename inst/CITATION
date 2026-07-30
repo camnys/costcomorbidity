@@ -1,0 +1,5 @@
+citHeader(
+  "If you use costcomorbidity in research or a publication, please cite the package:"
+)
+
+citation(auto = meta)
