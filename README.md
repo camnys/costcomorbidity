@@ -1,6 +1,8 @@
 
 # costcomorbidity
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXXX.svg)](https://doi.org/10.5281/zenodo.21703585)
+
 `costcomorbidity` is an R package for calculating the ICD-10 based
 Charlson and Elixhauser, as well as the ATC-based RxRisk comorbidity
 indices, derived from predicting healthcare costs.
@@ -30,7 +32,7 @@ library(costcomorbidity)
 ## Citation
 
 The cost-based comorbidity weights implemented in `costcomorbidity` were
-developed and validated in:
+derived and internally validated in:
 
 > Nystrand, C., Johansson, N., and Blom, J. (2026). Derivation and
 > Validation of Charlson, Elixhauser and RxRisk Cost-Based Comorbidity
@@ -38,9 +40,17 @@ developed and validated in:
 > *PharmacoEconomics*. Accepted for publication.
 > <https://doi.org/10.1007/s40273-026-01652-x>
 
+The archived software release is:
+
+> Nystrand, C. (2026). *costcomorbidity: Cost-Based Comorbidity Indices*
+> (version 0.1.1). Zenodo. <https://doi.org/10.5281/zenodo.21703585>
+
 If you use these indices, please cite the methodological article and
-report the version of `costcomorbidity` used. Citation information and
-the installed package version can be obtained with:
+report the version of `costcomorbidity` used. To identify the precise
+software implementation, please also cite the archived software release.
+
+Citation information and the installed package version can be obtained
+with:
 
 ``` r
 citation("costcomorbidity")
