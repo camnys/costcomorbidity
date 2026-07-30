@@ -1,0 +1,95 @@
+index,order_in_index,indicator,category,analysis_label,coefficient,ci_lower,ci_upper,code_system,mapping,package_source
+charlson,1,cci_metacanc,metacanc,,4.171,4.095,4.245,ICD10,charlson_icd10_quan,comorbidity
+charlson,2,cci_aids,aids,,2.881,2.387,3.355,ICD10,charlson_icd10_quan,comorbidity
+charlson,3,cci_canc,canc,,2.394,2.355,2.437,ICD10,charlson_icd10_quan,comorbidity
+charlson,4,cci_msld,msld,,2.209,1.964,2.456,ICD10,charlson_icd10_quan,comorbidity
+charlson,5,cci_diabwc,diabwc,,2.128,2.083,2.175,ICD10,charlson_icd10_quan,comorbidity
+charlson,6,cci_mld,mld,,2.052,1.946,2.156,ICD10,charlson_icd10_quan,comorbidity
+charlson,7,cci_rheumd,rheumd,,1.993,1.94,2.05,ICD10,charlson_icd10_quan,comorbidity
+charlson,8,cci_diab,diab,,1.776,1.746,1.807,ICD10,charlson_icd10_quan,comorbidity
+charlson,9,cci_cpd,cpd,,1.712,1.676,1.749,ICD10,charlson_icd10_quan,comorbidity
+charlson,10,cci_rend,rend,,1.49,1.419,1.566,ICD10,charlson_icd10_quan,comorbidity
+charlson,11,cci_cevd,cevd,,1.478,1.42,1.532,ICD10,charlson_icd10_quan,comorbidity
+charlson,12,cci_dementia,dementia,,1.444,1.366,1.529,ICD10,charlson_icd10_quan,comorbidity
+charlson,13,cci_hp,hp,,1.437,1.257,1.618,ICD10,charlson_icd10_quan,comorbidity
+charlson,14,cci_pud,pud,,1.374,1.201,1.542,ICD10,charlson_icd10_quan,comorbidity
+charlson,15,cci_chf,chf,,1.248,1.188,1.309,ICD10,charlson_icd10_quan,comorbidity
+charlson,16,cci_pvd,pvd,,1.179,1.094,1.254,ICD10,charlson_icd10_quan,comorbidity
+charlson,17,cci_mi,mi,,1.137,1.075,1.196,ICD10,charlson_icd10_quan,comorbidity
+elixhauser,1,eci_metacanc,metacanc,,3.937,3.854,4.018,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,2,eci_aids,aids,,2.946,2.505,3.385,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,3,eci_psycho,psycho,,2.63,2.52,2.75,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,4,eci_lymph,lymph,,2.44,2.316,2.572,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,5,eci_ond,ond,,2.156,2.092,2.222,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,6,eci_solidtum,solidtum,,2.111,2.064,2.158,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,7,eci_rheumd,rheumd,,1.849,1.798,1.902,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,8,eci_depre,depre,,1.633,1.582,1.68,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,9,eci_drug,drug,,1.605,1.375,1.808,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,10,eci_diabc,diabc,,1.599,1.558,1.64,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,11,eci_hypc,hypc,,1.54,1.405,1.666,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,12,eci_hypunc,hypunc,,1.503,1.478,1.527,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,13,eci_ld,ld,,1.48,1.382,1.58,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,14,eci_carit,carit,,1.463,1.427,1.496,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,15,eci_cpd,cpd,,1.363,1.325,1.405,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,16,eci_pud,pud,,1.351,1.119,1.566,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,17,eci_para,para,,1.299,1.116,1.477,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,18,eci_coag,coag,,1.217,1.046,1.395,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,19,eci_diabunc,diabunc,,1.199,1.166,1.232,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,20,eci_alcohol,alcohol,,1.157,1.05,1.263,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,21,eci_rf,rf,,1.091,1.016,1.166,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,22,eci_pcd,pcd,,1.025,0.894,1.15,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,23,eci_valv,valv,,0.908,0.831,0.991,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,24,eci_pvd,pvd,,0.88,0.795,0.957,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,25,eci_hypothy,hypothy,,0.815,0.778,0.854,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,26,eci_wloss,wloss,,0.75,0.564,0.916,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,27,eci_obes,obes,,0.59,0.528,0.653,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,28,eci_dane,dane,,0.498,0.371,0.613,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,29,eci_chf,chf,,0.364,0.301,0.424,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,30,eci_blane,blane,,0.315,-0.041,0.685,ICD10,elixhauser_icd10_quan,comorbidity
+elixhauser,31,eci_fed,fed,,0.15,0.022,0.267,ICD10,elixhauser_icd10_quan,comorbidity
+rxrisk,1,rx_alc_,Alcohol dependence,Alcohol Dependence,0.536,0.407,0.658,ATC,atc_pratt,coder
+rxrisk,2,rx_allr,Allergies,Allergies,0.699,0.674,0.729,ATC,atc_pratt,coder
+rxrisk,3,rx_antc,Anticoagulants,Anticoagulants,0.87,0.835,0.903,ATC,atc_pratt,coder
+rxrisk,4,rx_antp,Antiplatelets,Antiplatelets,0.224,0.201,0.248,ATC,atc_pratt,coder
+rxrisk,5,rx_anxt,Anxiety,Anxiety,0.259,0.218,0.298,ATC,atc_pratt,coder
+rxrisk,6,rx_arrh,Arrhythmia,Arrhythmia,0.151,0.091,0.213,ATC,atc_pratt,coder
+rxrisk,7,rx_bn__,Benign prostatic hyperplasia,Benign Prostatic Hyperplasia,1.071,1.024,1.117,ATC,atc_pratt,coder
+rxrisk,8,rx_bpl_,Bipolar disorder,Bipolar Disorder,1.182,1.053,1.315,ATC,atc_pratt,coder
+rxrisk,9,rx_ch__,Chronic airways disease,Chronic Airways Disease,0.548,0.52,0.575,ATC,atc_pratt,coder
+rxrisk,10,rx_cn__,Congestive heart failure,Congestive Heart Failure,0.723,0.702,0.746,ATC,atc_pratt,coder
+rxrisk,11,rx_dbts,Diabetes,Diabetes,0.36,0.334,0.385,ATC,atc_pratt,coder
+rxrisk,12,rx_dmnt,Dementia,Dementia,0.756,0.663,0.844,ATC,atc_pratt,coder
+rxrisk,13,rx_dprs,Depression,Depression,0.561,0.534,0.591,ATC,atc_pratt,coder
+rxrisk,14,rx_eplp,Epilepsy,Epilepsy,1.02,0.955,1.085,ATC,atc_pratt,coder
+rxrisk,15,rx_glcm,Glaucoma,Glaucoma,1.362,1.322,1.401,ATC,atc_pratt,coder
+rxrisk,16,rx_gout,Gout,Gout,0.042,-0.014,0.094,ATC,atc_pratt,coder
+rxrisk,17,rx_gs__,Gastrooesophageal reflux disease,Gastrooesophageal Reflux Disease,0.548,0.525,0.572,ATC,atc_pratt,coder
+rxrisk,18,rx_hiv,HIV,Hiv,0.881,0.817,0.941,ATC,atc_pratt,coder
+rxrisk,19,rx_hpt_,Hepatitis B,Hepatitis b,1.089,0.524,1.691,ATC,atc_pratt,coder
+rxrisk,20,rx_hpt__1,Hepatitis C,Hepatitis c,1.657,1.266,2.022,ATC,atc_pratt,coder
+rxrisk,21,rx_hypr,Hyperkalaemia,Hyperkalaemia,0.153,-0.075,0.374,ATC,atc_pratt,coder
+rxrisk,22,rx_hypr_1,Hyperlipidaemia,Hyperlipidaemia,0.593,0.573,0.613,ATC,atc_pratt,coder
+rxrisk,23,rx_hypr_2,Hypertension,Hypertension,0.429,0.411,0.45,ATC,atc_pratt,coder
+rxrisk,24,rx_hypr_3,Hyperthyroidism,Hyperthyroidism,0.581,0.553,0.609,ATC,atc_pratt,coder
+rxrisk,25,rx_hypt,Hypothyroidism,Hypothyroidism,0.532,-0.338,1.405,ATC,atc_pratt,coder
+rxrisk,26,rx_i___,Ischaemic heart disease: hypertension,Ischaemic Heart Disease Hypertension,0.579,0.56,0.599,ATC,atc_pratt,coder
+rxrisk,27,rx_i____1,Ischemic heart disease: angina,Ischemic Heart Disease Angina,-0.631,-0.671,-0.59,ATC,atc_pratt,coder
+rxrisk,28,rx_incn,Incontinence,Incontinence,0.547,0.494,0.6,ATC,atc_pratt,coder
+rxrisk,29,rx_inf_,Inflammation/pain,Inflammation Pain,0.971,0.943,1,ATC,atc_pratt,coder
+rxrisk,30,rx_ir__,Irritable bowel syndrome,Irritable Bowel Syndrome,1.147,1.068,1.228,ATC,atc_pratt,coder
+rxrisk,31,rx_lvr_,Liver failure,Liver Failure,0.08,0.016,0.144,ATC,atc_pratt,coder
+rxrisk,32,rx_mgrn,Migraine,Migraine,0.804,0.727,0.875,ATC,atc_pratt,coder
+rxrisk,33,rx_mlgn,Malignancies,Malignancies,1.83,1.729,1.943,ATC,atc_pratt,coder
+rxrisk,34,rx_mlnt,Malnutrition,Malnutrition,1.921,1.373,2.47,ATC,atc_pratt,coder
+rxrisk,35,rx_os__,Osteoporosis/Paget's,Osteoporosis Paget s,0.765,0.712,0.816,ATC,atc_pratt,coder
+rxrisk,36,rx_pain,Pain,Pain,0.279,0.248,0.309,ATC,atc_pratt,coder
+rxrisk,37,rx_plm_,Pulmonary hypertension,Pulmonary Hypertension,1.13,0.472,1.726,ATC,atc_pratt,coder
+rxrisk,38,rx_pnc_,Pancreatic insufficiency,Pancreatic Insufficiency,0.768,0.639,0.884,ATC,atc_pratt,coder
+rxrisk,39,rx_pr__,Parkinson's disease,Parkinson s Disease,0.837,0.775,0.904,ATC,atc_pratt,coder
+rxrisk,40,rx_psrs,Psoriasis,Psoriasis,0.936,0.851,1.021,ATC,atc_pratt,coder
+rxrisk,41,rx_psy_,Psychotic illness,Psychotic Illness,0.594,0.533,0.659,ATC,atc_pratt,coder
+rxrisk,42,rx_rnl_,Renal disease,Renal Disease,0.25,0.148,0.344,ATC,atc_pratt,coder
+rxrisk,43,rx_smk_,Smoking cessation,Smoking Cessation,-0.135,-0.23,-0.035,ATC,atc_pratt,coder
+rxrisk,44,rx_st__,Steroid-responsive disease,Steroid Responsive Disease,0.538,0.501,0.571,ATC,atc_pratt,coder
+rxrisk,45,rx_tbrc,Tuberculosis,Tuberculosis,1.114,0.29,1.931,ATC,atc_pratt,coder
+rxrisk,46,rx_trns,Transplant,Transplant,0.115,-0.023,0.252,ATC,atc_pratt,coder

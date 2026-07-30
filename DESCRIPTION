@@ -1,0 +1,23 @@
+Package: costcomorbidity
+Type: Package
+Title: Cost-Based Comorbidity Indices
+Version: 0.1.0
+Authors@R: person(
+      given = "Camilla",
+      family = "Nystrand",
+      role = c("aut", "cre"),
+      email = "camilla.nystrand@ki.se"
+    )
+Description: More about what it does (maybe more than one line).
+    Continuation lines should be indented.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 3.5)
+RoxygenNote: 7.3.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    coder (>= 0.13.10)
