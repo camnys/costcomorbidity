@@ -1,14 +1,14 @@
 
 # costcomorbidity
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXXX.svg)](https://doi.org/10.5281/zenodo.21703585)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21703584.svg)](https://doi.org/10.5281/zenodo.21703584)
 
 `costcomorbidity` is an R package for calculating the ICD-10 based
 Charlson and Elixhauser, as well as the ATC-based RxRisk comorbidity
 indices, derived from predicting healthcare costs.
 
-The package is currently under active development. Its interface and
-coefficient implementation may change before the first formal release.
+The package is under active development, and its interface and
+implementation may evolve in future releases.
 
 ## Installation
 
@@ -43,7 +43,7 @@ derived and internally validated in:
 The archived software release is:
 
 > Nystrand, C. (2026). *costcomorbidity: Cost-Based Comorbidity Indices*
-> (version 0.1.1). Zenodo. <https://doi.org/10.5281/zenodo.21703585>
+> Zenodo. <https://doi.org/10.5281/zenodo.21703584>
 
 If you use these indices, please cite the methodological article and
 report the version of `costcomorbidity` used. To identify the precise
@@ -56,6 +56,23 @@ with:
 citation("costcomorbidity")
 packageVersion("costcomorbidity")
 ```
+
+## Licensing and third-party materials
+
+The original code in `costcomorbidity` is licensed under GPL-2. The
+package imports the separately distributed package `coder`; it does not
+copy the full `coder` classification objects into this repository.
+
+When `mapping = "atc_pratt"` is used, the RxRisk V mapping is obtained
+from `coder` at runtime. The Pratt et al. article describing that
+mapping is distributed under CC BY-NC 4.0. The `costcomorbidity` licence
+does not relicense third-party publications, mappings, data, or other
+materials.
+
+Users intending to use the Pratt-based mapping commercially should
+independently verify whether additional permission is required. See
+[`inst/THIRD-PARTY-NOTICES.md`](inst/THIRD-PARTY-NOTICES.md) for further
+information.
 
 ## Supported indices
 
