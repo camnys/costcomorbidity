@@ -1,8 +1,8 @@
 citHeader(
   paste(
-    "The cost-based comorbidity weights implemented in",
-    "costcomorbidity were developed and validated in the following article.",
-    "If you use these indices, please cite:"
+    "If you use the cost-based comorbidity indices, please cite the",
+    "methodological article below. Please also report or cite the archived",
+    "software version used:"
   )
 )
 
@@ -32,6 +32,20 @@ bibentry(
   doi = "10.1007/s40273-026-01652-x",
   url = "https://doi.org/10.1007/s40273-026-01652-x",
   note = "Accepted for publication"
+)
+
+bibentry(
+  bibtype = "Manual",
+  title = "costcomorbidity: Cost-Based Comorbidity Indices",
+  author = person(
+    given = "Camilla",
+    family = "Nystrand"
+  ),
+  year = "2026",
+  note = "R package version 0.1.2",
+  doi = "10.5281/zenodo.21703584",
+  url = "https://github.com/camnys/costcomorbidity",
+  key = "costcomorbidity-software"
 )
 
 citFooter(
