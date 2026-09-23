@@ -24,6 +24,5 @@ Suggests:
 Config/testthat/edition: 3
 Imports: 
     coder (>= 0.13.10)
-URL: https://github.com/camnys/costcomorbidity,
-    https://doi.org/10.5281/zenodo.21703584
+URL: https://github.com/camnys/costcomorbidity, https://doi.org/10.5281/zenodo.21703584, https://camnys.github.io/costcomorbidity/
 BugReports: https://github.com/camnys/costcomorbidity/issues
